@@ -11,16 +11,16 @@
         //Input: 9
         //Output: No
 
-        Console.Write("Enter number: ");
-        int number = Convert.ToInt32(Console.ReadLine());
-        if (number % 2 == 0) { Console.WriteLine("yes"); }
-        else
-        {
-            Console.WriteLine("No");
-            #endregion
-        }
+        //Console.Write("Enter number: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //if (number % 2 == 0) { Console.WriteLine("yes"); }
+        //else
+        //{
+        //    Console.WriteLine("No");
+        //}
+        #endregion
 
-#endregion
+
 
         #region
         //2.Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
@@ -31,10 +31,10 @@
         //Input: 10
         //Output: positive
 
-        //Console.Write("Enter number: ");
-        //int number = Convert.ToInt32(Console.ReadLine());
-        //if (number < 0) { Console.WriteLine("negative"); }
-        //else { Console.WriteLine("positive"); }
+        Console.Write("Enter number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number < 0) { Console.WriteLine("negative"); }
+        else { Console.WriteLine("positive"); }
 
         #endregion
 
