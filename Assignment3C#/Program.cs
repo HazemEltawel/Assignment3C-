@@ -417,34 +417,34 @@
         #region
         //19. Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
 
-        Console.Write("Enter Size an identity matrix: ");
-        int n = Convert.ToInt32(Console.ReadLine());
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                if (i == j) { Console.Write("1"); }
-                else { Console.Write("0"); }
-            }
-            Console.WriteLine();
-        }
+        //Console.Write("Enter Size an identity matrix: ");
+        //int n = Convert.ToInt32(Console.ReadLine());
+        //for (int i = 0; i < n; i++)
+        //{
+        //    for (int j = 0; j < n; j++)
+        //    {
+        //        if (i == j) { Console.Write("1"); }
+        //        else { Console.Write("0"); }
+        //    }
+        //    Console.WriteLine();
+        //}
         #endregion
 
         #region
         //20.  Write a program in C# Sharp to find the sum of all elements of the array.
 
-        //Console.Write("Enter the Number ele: ");
-        //int num = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the Number ele: ");
+        int num = Convert.ToInt32(Console.ReadLine());
 
-        //int[] arr = new int[num];
-        //int sum = 0;
-        //for (int i = 0; i < num; i++)
-        //{
-        //    Console.Write($"Enter Ele{i + 1} ");
-        //    arr[i] = Convert.ToInt32((string)Console.ReadLine());
-        //    sum += arr[i];
-        //}
-        //Console.WriteLine(sum);
+        int[] arr = new int[num];
+        int sum = 0;
+        for (int i = 0; i < num; i++)
+        {
+            Console.Write($"Enter Ele{i + 1} ");
+            arr[i] = Convert.ToInt32((string)Console.ReadLine());
+            sum += arr[i];
+        }
+        Console.WriteLine(sum);
         #endregion
 
         #region
