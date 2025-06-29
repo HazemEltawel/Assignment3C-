@@ -483,58 +483,58 @@
         #region
         //22.Write a program in C# Sharp to count the frequency of each element of an array.
 
-        Console.Write("Enter number of elements: ");
-        int n = Convert.ToInt32(Console.ReadLine());
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++)
-        {
-            Console.Write($"Element [{i}]: ");
-            arr[i] = Convert.ToInt32(Console.ReadLine());
-        }
-        bool[] counted = new bool[n];
-
-        Console.WriteLine("\nFrequency of each element:");
-        for (int i = 0; i < n; i++)
-        {
-            if (counted[i])
-                continue;
-
-            int count = 1;
-            for (int j = i + 1; j < n; j++)
-            {
-                if (arr[i] == arr[j])
-                {
-                    count++;
-                    counted[j] = true;
-                }
-            }
-
-            Console.WriteLine($"{arr[i]} occurs {count} time(s)");
-        }
-        #endregion
-
-        #region
-        //23. Write a program in C# Sharp to find maximum and minimum element in an array
         //Console.Write("Enter number of elements: ");
-        //int num = Convert.ToInt32(Console.ReadLine());
-        //int[] arr = new int[num];
-        //for (int i = 0; i < num; i++)
+        //int n = Convert.ToInt32(Console.ReadLine());
+        //int[] arr = new int[n];
+        //for (int i = 0; i < n; i++)
         //{
         //    Console.Write($"Element [{i}]: ");
         //    arr[i] = Convert.ToInt32(Console.ReadLine());
         //}
-        //int min = arr[0];
-        //int max = arr[0];
-        //for (int i = 1; i < num; i++)
-        //{
-        //    if (arr[i] < min)
-        //        min = arr[i];
+        //bool[] counted = new bool[n];
 
-        //    if (arr[i] > max)
-        //        max = arr[i];
+        //Console.WriteLine("\nFrequency of each element:");
+        //for (int i = 0; i < n; i++)
+        //{
+        //    if (counted[i])
+        //        continue;
+
+        //    int count = 1;
+        //    for (int j = i + 1; j < n; j++)
+        //    {
+        //        if (arr[i] == arr[j])
+        //        {
+        //            count++;
+        //            counted[j] = true;
+        //        }
+        //    }
+
+        //    Console.WriteLine($"{arr[i]} occurs {count} time(s)");
         //}
-        //Console.WriteLine($"\nMaximum element = {max}");
-        //Console.WriteLine($"Minimum element = {min}");
+        #endregion
+
+        #region
+        //23. Write a program in C# Sharp to find maximum and minimum element in an array
+        Console.Write("Enter number of elements: ");
+        int num = Convert.ToInt32(Console.ReadLine());
+        int[] arr = new int[num];
+        for (int i = 0; i < num; i++)
+        {
+            Console.Write($"Element [{i}]: ");
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        int min = arr[0];
+        int max = arr[0];
+        for (int i = 1; i < num; i++)
+        {
+            if (arr[i] < min)
+                min = arr[i];
+
+            if (arr[i] > max)
+                max = arr[i];
+        }
+        Console.WriteLine($"\nMaximum element = {max}");
+        Console.WriteLine($"Minimum element = {min}");
         #endregion
 
 
