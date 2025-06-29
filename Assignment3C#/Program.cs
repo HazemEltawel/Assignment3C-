@@ -90,13 +90,13 @@
         //Input: b
         //Output: Consonant
 
-        Console.WriteLine("Enter character");
+        //Console.WriteLine("Enter character");
 
-        char character = Convert.ToChar(Console.ReadLine());
-        character = char.ToLower(character);
-        if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u')
-        { Console.WriteLine("vowel"); }
-        else { Console.WriteLine("consonant"); }
+        //char character = Convert.ToChar(Console.ReadLine());
+        //character = char.ToLower(character);
+        //if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u')
+        //{ Console.WriteLine("vowel"); }
+        //else { Console.WriteLine("consonant"); }
 
         #endregion
 
@@ -107,17 +107,17 @@
         //Input: 5
         //Output: 1, 2, 3, 4, 5
 
-        //Console.Write("Enter Number");
+        Console.Write("Enter Number");
 
-        //int number = Convert.ToInt32(Console.ReadLine());
+        int number = Convert.ToInt32(Console.ReadLine());
 
-        //for (int i = 1; i <= number; i++)
-        //{
-        //    if (i == number)
-        //        Console.Write(i);
-        //    else
-        //        Console.Write(i + ", ");
-        //}
+        for (int i = 1; i <= number; i++)
+        {
+            if (i == number)
+                Console.Write(i);
+            else
+                Console.Write(i + ", ");
+        }
 
         #endregion
 
