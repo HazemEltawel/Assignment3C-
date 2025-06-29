@@ -214,20 +214,20 @@
         //Input: Month Number: 1
         //Output: Days in Month: 31
 
-        Console.Write("Enter month number (1 - 12): ");
-        int month = Convert.ToInt32(Console.ReadLine());
-        int day;
-        if (month == 1 || month == 3 || month == 5 || month == 7 ||
-            month == 8 || month == 10 || month == 12) { day = 31; }
-        else if (month == 4 || month == 6 || month == 9 || month == 11) { day = 30; }
-        else if (month == 2) { day = 28; }
-        else
-        {
-            Console.WriteLine("Invalid month number.");
-            return;
-        }
+        //Console.Write("Enter month number (1 - 12): ");
+        // int month = Convert.ToInt32(Console.ReadLine());
+        // int day;
+        // if (month == 1 || month == 3 || month == 5 || month == 7 ||
+        //     month == 8 || month == 10 || month == 12) { day = 31; }
+        // else if (month == 4 || month == 6 || month == 9 || month == 11) { day = 30; }
+        // else if (month == 2) { day = 28; }
+        // else
+        // {
+        //     Console.WriteLine("Invalid month number.");
+        //     return;
+        // }
 
-        Console.WriteLine("Days in Month: " + day);
+        // Console.WriteLine("Days in Month: " + day);
 
 
         #endregion
@@ -235,44 +235,46 @@
         #region
         //12.Write a program to create a Simple Calculator.
 
-        //double num1, num2, res;
-        //char ope;
-        //Console.Write("Enter First Number");
-        //num1 = Convert.ToDouble(Console.ReadLine());
+        double num1, num2, res;
+        char ope;
+        Console.Write("Enter First Number");
+        num1 = Convert.ToDouble(Console.ReadLine());
 
-        //Console.Write("Enter Second Number");
-        //num2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter Second Number");
+        num2 = Convert.ToDouble(Console.ReadLine());
 
-        //Console.Write("Enter Operator (+, -, *, /): ");
-        //ope = Convert.ToChar(Console.ReadLine());
+        Console.Write("Enter Operator (+, -, *, /): ");
+        ope = Convert.ToChar(Console.ReadLine());
 
-        //switch (ope)
-        //{ case '+':res=num1+num2;
-        //        Console.WriteLine("Result: " + res);
-        //        break;
-        //    case '-':
-        //        res = num1 - num2;
-        //        Console.WriteLine("Result: " + res);
-        //        break;
-        //    case '*':
-        //        res = num1 * num2;
-        //        Console.WriteLine("Result: " + res);
-        //        break;
-        //    case '/':
-        //        if (num2 != 0)
-        //        {
-        //            res = num1 / num2;
-        //            Console.WriteLine("Result: " + res);
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine("Error: Division by zero is not allowed.");
-        //        }
-        //        break;
-        //    default:
-        //        Console.WriteLine("Invalid operator.");
-        //        break;
-        //}
+        switch (ope)
+        {
+            case '+':
+                res = num1 + num2;
+                Console.WriteLine("Result: " + res);
+                break;
+            case '-':
+                res = num1 - num2;
+                Console.WriteLine("Result: " + res);
+                break;
+            case '*':
+                res = num1 * num2;
+                Console.WriteLine("Result: " + res);
+                break;
+            case '/':
+                if (num2 != 0)
+                {
+                    res = num1 / num2;
+                    Console.WriteLine("Result: " + res);
+                }
+                else
+                {
+                    Console.WriteLine("Error: Division by zero is not allowed.");
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operator.");
+                break;
+        }
 
 
         #endregion
