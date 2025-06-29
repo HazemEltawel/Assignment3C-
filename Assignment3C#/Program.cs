@@ -403,13 +403,13 @@
         //- If the worker takes more than 5 hours, they are required to leave the company.
         //To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
 
-        Console.Write("Enter The time: ");
-        int time = Convert.ToInt32(Console.ReadLine());
-        if (time >= 2 && time <= 3) { Console.WriteLine("Highly efficient"); }
-        else if (time > 3 && time <= 4) { Console.WriteLine("Increase Your Speed"); }
-        else if (time > 4 && time <= 5) { Console.WriteLine("Training to enhance their speed"); }
-        else if (time > 5) { Console.WriteLine("Required to leave the company"); }
-        else { Console.WriteLine("Invalid time "); }
+        //Console.Write("Enter The time: ");
+        //int time = Convert.ToInt32(Console.ReadLine());
+        //if (time >= 2 && time <= 3) { Console.WriteLine("Highly efficient"); }
+        //else if (time > 3 && time <= 4) { Console.WriteLine("Increase Your Speed"); }
+        //else if (time > 4 && time <= 5) { Console.WriteLine("Training to enhance their speed"); }
+        //else if (time > 5) { Console.WriteLine("Required to leave the company"); }
+        //else { Console.WriteLine("Invalid time "); }
 
 
         #endregion
@@ -417,17 +417,17 @@
         #region
         //19. Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
 
-        //Console.Write("Enter Size an identity matrix: ");
-        //int n = Convert.ToInt32(Console.ReadLine());
-        //for (int i = 0; i < n; i++)
-        //{
-        //  for (int j = 0; j < n; j++) 
-        //    {
-        //        if (i == j) { Console.Write("1"); }
-        //        else { Console.Write("0"); }
-        //    }
-        //    Console.WriteLine();
-        //}
+        Console.Write("Enter Size an identity matrix: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (i == j) { Console.Write("1"); }
+                else { Console.Write("0"); }
+            }
+            Console.WriteLine();
+        }
         #endregion
 
         #region
