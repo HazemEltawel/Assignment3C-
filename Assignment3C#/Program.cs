@@ -291,17 +291,17 @@
         #region
         //14.Write a program to allow the user to enter int and print the REVERSED of it.
 
-        Console.Write("Enter Number: ");
-        int num = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter Number: ");
+        //int num = Convert.ToInt32(Console.ReadLine());
 
-        int reve = 0;
-        while (num > 0)
-        {
-            int digit = num % 10;
-            reve = reve * 10 + digit;
-            num /= 10;
-        }
-        Console.WriteLine(reve);
+        //int reve = 0;
+        //while (num > 0)
+        //{
+        //    int digit = num % 10;
+        //    reve = reve * 10 + digit;
+        //    num /= 10;
+        //}
+        //Console.WriteLine(reve);
         #endregion
 
         #region
@@ -315,30 +315,30 @@
 
         //----------------
 
-        //Console.Write("Input starting number of range: ");
-        //int start = Convert.ToInt32(Console.ReadLine());
-        //Console.Write("Input ending number of range: ");
-        //int end = Convert.ToInt32(Console.ReadLine());
-        //Console.WriteLine("\nThe prime numbers between " + start + " and " + end + " are:");
+        Console.Write("Input starting number of range: ");
+        int start = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Input ending number of range: ");
+        int end = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("\nThe prime numbers between " + start + " and " + end + " are:");
 
-        //for (int i = start; i <= end; i++)
-        //{
-        //if (IsPrime(i))
-        //  { Console.Write(i + ", "); }
-        //} 
-        //    Console.WriteLine(); 
-        //  }
+        for (int i = start; i <= end; i++)
+        {
+            if (IsPrime(i))
+            { Console.Write(i + ", "); }
+        }
+        Console.WriteLine();
+    }
 
-        //static bool IsPrime(int number)
-        //{
-        //  if (number <= 1)
-        //      return false;
-        //  for (int i = 2; i <= Math.Sqrt(number); i++)
-        //{
-        //    if (number % i == 0)
-        //        return false;
-        //}
-        //return true;
+    static bool IsPrime(int number)
+    {
+        if (number <= 1)
+            return false;
+        for (int i = 2; i <= Math.Sqrt(number); i++)
+        {
+            if (number % i == 0)
+                return false;
+        }
+        return true;
 
         #endregion
 
