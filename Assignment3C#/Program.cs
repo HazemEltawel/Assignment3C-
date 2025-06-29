@@ -163,15 +163,15 @@
         //Output: 64
         //Hint: how to calculate 4 ^ 3 = 4 * 4 * 4 = 64
 
-        Console.Write("Enter num: ");
-        int number = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter num: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter exponent: ");
-        int exponent = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter exponent: ");
+        //int exponent = Convert.ToInt32(Console.ReadLine());
 
-        int res = 1;
-        for (int i = 1; i <= exponent; i++) { res *= number; }
-        Console.WriteLine(res);
+        //int res = 1;
+        //for (int i = 1; i <= exponent; i++) { res *= number; }
+        //Console.WriteLine(res);
 
 
         #endregion
@@ -185,25 +185,25 @@
         //Average Marks = 81
         //Percentage = 81
 
-        //Console.WriteLine("Enter marks of five subjects:");
-        //Console.Write("Subject 1: ");
-        //int su1 = Convert.ToInt32(Console.ReadLine());
-        //Console.Write("Subject 2: ");
-        //int su2 = Convert.ToInt32(Console.ReadLine());
-        //Console.Write("Subject 3: ");
-        //int su3 = Convert.ToInt32(Console.ReadLine());
-        //Console.Write("Subject 4: ");
-        //int su4 = Convert.ToInt32(Console.ReadLine());
-        //Console.Write("Subject 5: ");
-        //int su5 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter marks of five subjects:");
+        Console.Write("Subject 1: ");
+        int su1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Subject 2: ");
+        int su2 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Subject 3: ");
+        int su3 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Subject 4: ");
+        int su4 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Subject 5: ");
+        int su5 = Convert.ToInt32(Console.ReadLine());
 
-        //int total= su1 + su2 + su3 + su4 + su5;
-        //double avg =total/ 5.0;
-        //double precentage = (total / 500.0) * 100;
+        int total = su1 + su2 + su3 + su4 + su5;
+        double avg = total / 5.0;
+        double precentage = (total / 500.0) * 100;
 
-        //Console.WriteLine("Total marks = " + total);
-        //Console.WriteLine("Average Marks = " + avg);
-        //Console.WriteLine("Percentage = " + precentage+"%");
+        Console.WriteLine("Total marks = " + total);
+        Console.WriteLine("Average Marks = " + avg);
+        Console.WriteLine("Percentage = " + precentage + "%");
 
         #endregion
 
