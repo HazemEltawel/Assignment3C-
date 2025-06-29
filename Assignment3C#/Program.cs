@@ -369,31 +369,31 @@
         #region
         //17.Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
 
-        Console.Write("Enter x1: ");
-        double x1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter x2: ");
-        double x2 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter x3: ");
-        double x3 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter x1: ");
+        //double x1 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter x2: ");
+        //double x2 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter x3: ");
+        //double x3 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter y1: ");
-        double y1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter y2: ");
-        double y2 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("Enter y3: ");
-        double y3 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter y1: ");
+        //double y1 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter y2: ");
+        //double y2 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter y3: ");
+        //double y3 = Convert.ToDouble(Console.ReadLine());
 
-        double l1 = (y2 - y1) * (x3 - x2);
-        double R2 = (y3 - y2) * (x2 - x1);
+        //double l1 = (y2 - y1) * (x3 - x2);
+        //double R2 = (y3 - y2) * (x2 - x1);
 
-        if (l1 == R2)
-        {
-            Console.WriteLine("these points lie on a single straight line.");
-        }
-        else
-        {
-            Console.WriteLine("The points do not lie on a single straight line.");
-        }
+        //if (l1 == R2)
+        //{
+        //    Console.WriteLine("these points lie on a single straight line.");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("The points do not lie on a single straight line.");
+        //}
 
         #endregion
 
@@ -405,13 +405,13 @@
         //- If the worker takes more than 5 hours, they are required to leave the company.
         //To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
 
-        //Console.Write("Enter The time: ");
-        //int time = Convert.ToInt32(Console.ReadLine());
-        //if (time >= 2 && time <= 3) { Console.WriteLine("Highly efficient"); }
-        //else if (time > 3 && time <= 4) { Console.WriteLine("Increase Your Speed"); }
-        //else if (time > 4 && time <= 5) { Console.WriteLine("Training to enhance their speed"); }
-        //else if (time > 5) { Console.WriteLine("Required to leave the company"); }
-        //else { Console.WriteLine("Invalid time "); }
+        Console.Write("Enter The time: ");
+        int time = Convert.ToInt32(Console.ReadLine());
+        if (time >= 2 && time <= 3) { Console.WriteLine("Highly efficient"); }
+        else if (time > 3 && time <= 4) { Console.WriteLine("Increase Your Speed"); }
+        else if (time > 4 && time <= 5) { Console.WriteLine("Training to enhance their speed"); }
+        else if (time > 5) { Console.WriteLine("Required to leave the company"); }
+        else { Console.WriteLine("Invalid time "); }
 
 
         #endregion
