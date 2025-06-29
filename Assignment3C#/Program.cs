@@ -185,25 +185,25 @@
         //Average Marks = 81
         //Percentage = 81
 
-        Console.WriteLine("Enter marks of five subjects:");
-        Console.Write("Subject 1: ");
-        int su1 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Subject 2: ");
-        int su2 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Subject 3: ");
-        int su3 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Subject 4: ");
-        int su4 = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Subject 5: ");
-        int su5 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter marks of five subjects:");
+        //Console.Write("Subject 1: ");
+        //int su1 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Subject 2: ");
+        //int su2 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Subject 3: ");
+        //int su3 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Subject 4: ");
+        //int su4 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Subject 5: ");
+        //int su5 = Convert.ToInt32(Console.ReadLine());
 
-        int total = su1 + su2 + su3 + su4 + su5;
-        double avg = total / 5.0;
-        double precentage = (total / 500.0) * 100;
+        //int total = su1 + su2 + su3 + su4 + su5;
+        //double avg = total / 5.0;
+        //double precentage = (total / 500.0) * 100;
 
-        Console.WriteLine("Total marks = " + total);
-        Console.WriteLine("Average Marks = " + avg);
-        Console.WriteLine("Percentage = " + precentage + "%");
+        //Console.WriteLine("Total marks = " + total);
+        //Console.WriteLine("Average Marks = " + avg);
+        //Console.WriteLine("Percentage = " + precentage + "%");
 
         #endregion
 
@@ -214,20 +214,20 @@
         //Input: Month Number: 1
         //Output: Days in Month: 31
 
-        //Console.Write("Enter month number (1 - 12): ");
-        //int month = Convert.ToInt32(Console.ReadLine());
-        //int day;
-        //if (month == 1 || month == 3 || month == 5 || month == 7 ||
-        //    month == 8 || month == 10 || month == 12) { day = 31; }
-        //else if (month == 4 || month == 6 || month == 9 || month == 11) { day = 30; }
-        //else if (month == 2) { day = 28; }
-        //else
-        //{
-        //    Console.WriteLine("Invalid month number.");
-        //    return;
-        //}
+        Console.Write("Enter month number (1 - 12): ");
+        int month = Convert.ToInt32(Console.ReadLine());
+        int day;
+        if (month == 1 || month == 3 || month == 5 || month == 7 ||
+            month == 8 || month == 10 || month == 12) { day = 31; }
+        else if (month == 4 || month == 6 || month == 9 || month == 11) { day = 30; }
+        else if (month == 2) { day = 28; }
+        else
+        {
+            Console.WriteLine("Invalid month number.");
+            return;
+        }
 
-        //Console.WriteLine("Days in Month: " + day);
+        Console.WriteLine("Days in Month: " + day);
 
 
         #endregion
