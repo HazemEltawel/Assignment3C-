@@ -435,51 +435,51 @@
         #region
         //20.  Write a program in C# Sharp to find the sum of all elements of the array.
 
-        Console.Write("Enter the Number ele: ");
-        int num = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter the Number ele: ");
+        //int num = Convert.ToInt32(Console.ReadLine());
 
-        int[] arr = new int[num];
-        int sum = 0;
-        for (int i = 0; i < num; i++)
-        {
-            Console.Write($"Enter Ele{i + 1} ");
-            arr[i] = Convert.ToInt32((string)Console.ReadLine());
-            sum += arr[i];
-        }
-        Console.WriteLine(sum);
+        //int[] arr = new int[num];
+        //int sum = 0;
+        //for (int i = 0; i < num; i++)
+        //{
+        //    Console.Write($"Enter Ele{i + 1} ");
+        //    arr[i] = Convert.ToInt32((string)Console.ReadLine());
+        //    sum += arr[i];
+        //}
+        //Console.WriteLine(sum);
         #endregion
 
         #region
         //21.Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
-        //Console.Write("Enter size of arrays: ");
-        //int size = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter size of arrays: ");
+        int size = Convert.ToInt32(Console.ReadLine());
 
-        //int[] arr1 = new int[size];
-        //int[] arr2 = new int[size];
+        int[] arr1 = new int[size];
+        int[] arr2 = new int[size];
 
-        //Console.WriteLine("Enter elements of first array:");
-        //for (int i = 0; i < size; i++)
-        //{
-        //    Console.Write($"arr1[{i}]: ");
-        //    arr1[i] = Convert.ToInt32(Console.ReadLine());
-        //}
+        Console.WriteLine("Enter elements of first array:");
+        for (int i = 0; i < size; i++)
+        {
+            Console.Write($"arr1[{i}]: ");
+            arr1[i] = Convert.ToInt32(Console.ReadLine());
+        }
 
-        //Console.WriteLine("Enter elements of second array:");
-        //for (int i = 0; i < size; i++)
-        //{
-        //    Console.Write($"arr2[{i}]: ");
-        //    arr2[i] = Convert.ToInt32(Console.ReadLine());
-        //}
+        Console.WriteLine("Enter elements of second array:");
+        for (int i = 0; i < size; i++)
+        {
+            Console.Write($"arr2[{i}]: ");
+            arr2[i] = Convert.ToInt32(Console.ReadLine());
+        }
 
-        //int[] arr1arr2 = arr1.Concat(arr2).OrderBy(x => x).ToArray();
+        int[] arr1arr2 = arr1.Concat(arr2).OrderBy(x => x).ToArray();
 
-        //Console.WriteLine("\nMerged and sorted array:");
-        //foreach (int num in arr1arr2)
-        //{
-        //    Console.Write(num + " ");
-        //}
-        //Console.WriteLine();
+        Console.WriteLine("\nMerged and sorted array:");
+        foreach (int num in arr1arr2)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
         #endregion
 
         #region
