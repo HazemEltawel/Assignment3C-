@@ -349,17 +349,17 @@
         //Expected Output :
         //The Binary of 25 is 11001.
 
-        Console.Write("Enter Number ");
-        int num = Convert.ToInt32(Console.ReadLine());
-        int Returning = num;
-        String binary = " ";
-        while (num > 0)
-        {
-            int remainder = num % 2;
-            binary += remainder;
-            num /= 2;
-        }
-        Console.WriteLine($"The Binary of " + Returning + " is " + binary);
+        //Console.Write("Enter Number ");
+        //int num = Convert.ToInt32(Console.ReadLine());
+        //int Returning = num;
+        //String binary = " ";
+        //while (num > 0)
+        //{
+        //    int remainder = num % 2;
+        //    binary += remainder;
+        //    num /= 2;
+        //}
+        //Console.WriteLine($"The Binary of " + Returning + " is " + binary);
 
 
         #endregion
@@ -367,31 +367,31 @@
         #region
         //17.Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
 
-        //Console.Write("Enter x1: ");
-        //double x1 = Convert.ToDouble(Console.ReadLine());
-        //Console.Write("Enter x2: ");
-        //double x2 = Convert.ToDouble(Console.ReadLine());
-        //Console.Write("Enter x3: ");
-        //double x3 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter x1: ");
+        double x1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter x2: ");
+        double x2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter x3: ");
+        double x3 = Convert.ToDouble(Console.ReadLine());
 
-        //Console.Write("Enter y1: ");
-        //double y1 = Convert.ToDouble(Console.ReadLine());
-        //Console.Write("Enter y2: ");
-        //double y2 = Convert.ToDouble(Console.ReadLine());
-        //Console.Write("Enter y3: ");
-        //double y3 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter y1: ");
+        double y1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter y2: ");
+        double y2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter y3: ");
+        double y3 = Convert.ToDouble(Console.ReadLine());
 
-        //double l1 = (y2 - y1) * (x3 - x2);
-        //double R2 = (y3 - y2) * (x2 - x1);
+        double l1 = (y2 - y1) * (x3 - x2);
+        double R2 = (y3 - y2) * (x2 - x1);
 
-        //if (l1 == R2)
-        //{
-        //    Console.WriteLine("these points lie on a single straight line.");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("The points do not lie on a single straight line.");
-        //}
+        if (l1 == R2)
+        {
+            Console.WriteLine("these points lie on a single straight line.");
+        }
+        else
+        {
+            Console.WriteLine("The points do not lie on a single straight line.");
+        }
 
         #endregion
 
