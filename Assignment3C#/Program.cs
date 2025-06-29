@@ -235,58 +235,58 @@
         #region
         //12.Write a program to create a Simple Calculator.
 
-        double num1, num2, res;
-        char ope;
-        Console.Write("Enter First Number");
-        num1 = Convert.ToDouble(Console.ReadLine());
+        //double num1, num2, res;
+        //char ope;
+        //Console.Write("Enter First Number");
+        //num1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter Second Number");
-        num2 = Convert.ToDouble(Console.ReadLine());
+        //Console.Write("Enter Second Number");
+        //num2 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Enter Operator (+, -, *, /): ");
-        ope = Convert.ToChar(Console.ReadLine());
+        //Console.Write("Enter Operator (+, -, *, /): ");
+        //ope = Convert.ToChar(Console.ReadLine());
 
-        switch (ope)
-        {
-            case '+':
-                res = num1 + num2;
-                Console.WriteLine("Result: " + res);
-                break;
-            case '-':
-                res = num1 - num2;
-                Console.WriteLine("Result: " + res);
-                break;
-            case '*':
-                res = num1 * num2;
-                Console.WriteLine("Result: " + res);
-                break;
-            case '/':
-                if (num2 != 0)
-                {
-                    res = num1 / num2;
-                    Console.WriteLine("Result: " + res);
-                }
-                else
-                {
-                    Console.WriteLine("Error: Division by zero is not allowed.");
-                }
-                break;
-            default:
-                Console.WriteLine("Invalid operator.");
-                break;
-        }
+        //switch (ope)
+        //{
+        //    case '+':
+        //        res = num1 + num2;
+        //        Console.WriteLine("Result: " + res);
+        //        break;
+        //    case '-':
+        //        res = num1 - num2;
+        //        Console.WriteLine("Result: " + res);
+        //        break;
+        //    case '*':
+        //        res = num1 * num2;
+        //        Console.WriteLine("Result: " + res);
+        //        break;
+        //    case '/':
+        //        if (num2 != 0)
+        //        {
+        //            res = num1 / num2;
+        //            Console.WriteLine("Result: " + res);
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Error: Division by zero is not allowed.");
+        //        }
+        //        break;
+        //    default:
+        //        Console.WriteLine("Invalid operator.");
+        //        break;
+        //}
 
 
         #endregion
 
         #region
         //13.Write a program to allow the user to enter a string and print the REVERSE of it.
-        //Console.Write("Enter String: ");
-        //String str = Console.ReadLine();
-        //char[] ch = str.ToCharArray();
-        //Array.Reverse(ch);
-        //string reve = new string(ch);
-        //Console.WriteLine(reve);
+        Console.Write("Enter String: ");
+        String str = Console.ReadLine();
+        char[] ch = str.ToCharArray();
+        Array.Reverse(ch);
+        string reve = new string(ch);
+        Console.WriteLine(reve);
 
         #endregion
 
