@@ -11,16 +11,16 @@
         //Input: 9
         //Output: No
 
-        //Console.Write("Enter number: ");
-        //int number = Convert.ToInt32(Console.ReadLine());
-        //if (number % 2 == 0) { Console.WriteLine("yes"); }
-        //else
-        //{
-        //    Console.WriteLine("No");
-        //    #endregion
-        //}
+        Console.Write("Enter number: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number % 2 == 0) { Console.WriteLine("yes"); }
+        else
+        {
+            Console.WriteLine("No");
+            #endregion
+        }
 
-        #endregion
+#endregion
 
         #region
         //2.Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
@@ -515,26 +515,26 @@
 
         #region
         //23. Write a program in C# Sharp to find maximum and minimum element in an array
-        Console.Write("Enter number of elements: ");
-        int num = Convert.ToInt32(Console.ReadLine());
-        int[] arr = new int[num];
-        for (int i = 0; i < num; i++)
-        {
-            Console.Write($"Element [{i}]: ");
-            arr[i] = Convert.ToInt32(Console.ReadLine());
-        }
-        int min = arr[0];
-        int max = arr[0];
-        for (int i = 1; i < num; i++)
-        {
-            if (arr[i] < min)
-                min = arr[i];
+        //Console.Write("Enter number of elements: ");
+        //int num = Convert.ToInt32(Console.ReadLine());
+        //int[] arr = new int[num];
+        //for (int i = 0; i < num; i++)
+        //{
+        //    Console.Write($"Element [{i}]: ");
+        //    arr[i] = Convert.ToInt32(Console.ReadLine());
+        //}
+        //int min = arr[0];
+        //int max = arr[0];
+        //for (int i = 1; i < num; i++)
+        //{
+        //    if (arr[i] < min)
+        //        min = arr[i];
 
-            if (arr[i] > max)
-                max = arr[i];
-        }
-        Console.WriteLine($"\nMaximum element = {max}");
-        Console.WriteLine($"Minimum element = {min}");
+        //    if (arr[i] > max)
+        //        max = arr[i];
+        //}
+        //Console.WriteLine($"\nMaximum element = {max}");
+        //Console.WriteLine($"Minimum element = {min}");
         #endregion
 
 
