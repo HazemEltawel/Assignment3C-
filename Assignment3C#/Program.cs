@@ -51,34 +51,34 @@
         //Max element = 9
         //Min element = 3
 
-        Console.Write("Enter First Number");
-        int number1 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter First Number");
+        //int number1 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter Seucnd Number");
-        int number2 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter Seucnd Number");
+        //int number2 = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter Third Number");
-        int number3 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter Third Number");
+        //int number3 = Convert.ToInt32(Console.ReadLine());
 
-        int max = number1;
-        if (number2 > max) { max = number2; }
-        if (number3 > max) { max = number3; }
+        //int max = number1;
+        //if (number2 > max) { max = number2; }
+        //if (number3 > max) { max = number3; }
 
-        int min = number1;
-        if (number2 < min) { min = number2; }
-        if (number3 < min) { min = number3; }
+        //int min = number1;
+        //if (number2 < min) { min = number2; }
+        //if (number3 < min) { min = number3; }
 
-        Console.WriteLine("max: " + max);
-        Console.WriteLine("min: " + min);
+        //Console.WriteLine("max: " + max);
+        //Console.WriteLine("min: " + min);
         #endregion
 
         #region 
         //4.Write a program that allows the user to insert an integer number then check If a number is even or odd.
 
-        //Console.Write("Enter number");
-        //int number = Convert.ToInt32(Console.ReadLine());
-        //if (number % 2 == 0) { Console.WriteLine("even "); }
-        //else { Console.WriteLine("odd"); }
+        Console.Write("Enter number");
+        int number = Convert.ToInt32(Console.ReadLine());
+        if (number % 2 == 0) { Console.WriteLine("even "); }
+        else { Console.WriteLine("odd"); }
         #endregion
 
         #region 
