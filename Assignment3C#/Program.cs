@@ -128,15 +128,15 @@
         //Input: 5
         //Outputs: 5 10 15 20 25 30 35 40 45 50 55 60
 
-        Console.Write("Enter Number: ");
+        //Console.Write("Enter Number: ");
 
-        int number = Convert.ToInt32(Console.ReadLine());
-        for (int i = 1; i <= 12; i++)
-        {
-            Console.Write(number * i);
-            if (i < 12)
-                Console.Write(", ");
-        }
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //for (int i = 1; i <= 12; i++)
+        //{
+        //    Console.Write(number * i);
+        //    if (i < 12)
+        //        Console.Write(", ");
+        //}
         #endregion
 
         #region 
@@ -145,14 +145,14 @@
         //Input: 15
         //Output: 2 4 6 8 10 12 14
 
-        //Console.Write("Enter Numer: ");
-        //int number = Convert.ToInt32(Console.ReadLine());
-        //for (int i = 2; i <= number; i += 2)
-        //{
-        //    Console.Write(i);
-        //    if (i < number)
-        //        Console.Write(", ");
-        //}
+        Console.Write("Enter Numer: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+        for (int i = 2; i <= number; i += 2)
+        {
+            Console.Write(i);
+            if (i < number)
+                Console.Write(", ");
+        }
         #endregion
 
         #region
