@@ -452,67 +452,67 @@
         #region
         //21.Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
-        Console.Write("Enter size of arrays: ");
-        int size = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter size of arrays: ");
+        //int size = Convert.ToInt32(Console.ReadLine());
 
-        int[] arr1 = new int[size];
-        int[] arr2 = new int[size];
+        //int[] arr1 = new int[size];
+        //int[] arr2 = new int[size];
 
-        Console.WriteLine("Enter elements of first array:");
-        for (int i = 0; i < size; i++)
-        {
-            Console.Write($"arr1[{i}]: ");
-            arr1[i] = Convert.ToInt32(Console.ReadLine());
-        }
+        //Console.WriteLine("Enter elements of first array:");
+        //for (int i = 0; i < size; i++)
+        //{
+        //    Console.Write($"arr1[{i}]: ");
+        //    arr1[i] = Convert.ToInt32(Console.ReadLine());
+        //}
 
-        Console.WriteLine("Enter elements of second array:");
-        for (int i = 0; i < size; i++)
-        {
-            Console.Write($"arr2[{i}]: ");
-            arr2[i] = Convert.ToInt32(Console.ReadLine());
-        }
+        //Console.WriteLine("Enter elements of second array:");
+        //for (int i = 0; i < size; i++)
+        //{
+        //    Console.Write($"arr2[{i}]: ");
+        //    arr2[i] = Convert.ToInt32(Console.ReadLine());
+        //}
 
-        int[] arr1arr2 = arr1.Concat(arr2).OrderBy(x => x).ToArray();
+        //int[] arr1arr2 = arr1.Concat(arr2).OrderBy(x => x).ToArray();
 
-        Console.WriteLine("\nMerged and sorted array:");
-        foreach (int num in arr1arr2)
-        {
-            Console.Write(num + " ");
-        }
-        Console.WriteLine();
+        //Console.WriteLine("\nMerged and sorted array:");
+        //foreach (int num in arr1arr2)
+        //{
+        //    Console.Write(num + " ");
+        //}
+        //Console.WriteLine();
         #endregion
 
         #region
         //22.Write a program in C# Sharp to count the frequency of each element of an array.
 
-        //Console.Write("Enter number of elements: ");
-        //int n = Convert.ToInt32(Console.ReadLine());
-        //int[] arr = new int[n];
-        //for (int i = 0; i < n; i++)
-        //{
-        //    Console.Write($"Element [{i}]: ");
-        //    arr[i] = Convert.ToInt32(Console.ReadLine());
-        //}
-        //bool[] counted = new bool[n];
+        Console.Write("Enter number of elements: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Element [{i}]: ");
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        bool[] counted = new bool[n];
 
-        //Console.WriteLine("\nFrequency of each element:");
-        //for (int i = 0; i < n; i++)
-        //{
-        //    if (counted[i])
-        //        continue;
+        Console.WriteLine("\nFrequency of each element:");
+        for (int i = 0; i < n; i++)
+        {
+            if (counted[i])
+                continue;
 
-        //    int count = 1;
-        //    for (int j = i + 1; j < n; j++)
-        //    {
-        //        if (arr[i] == arr[j])
-        //        {
-        //            count++;
-        //            counted[j] = true;
-        //        }
-        //    }
+            int count = 1;
+            for (int j = i + 1; j < n; j++)
+            {
+                if (arr[i] == arr[j])
+                {
+                    count++;
+                    counted[j] = true;
+                }
+            }
 
-        //    Console.WriteLine($"{arr[i]} occurs {count} time(s)");
-        //}
+            Console.WriteLine($"{arr[i]} occurs {count} time(s)");
+        }
         #endregion
 
         #region
