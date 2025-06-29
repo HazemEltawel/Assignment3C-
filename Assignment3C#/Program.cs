@@ -163,15 +163,15 @@
         //Output: 64
         //Hint: how to calculate 4 ^ 3 = 4 * 4 * 4 = 64
 
-        Console.Write("Enter num: ");
-        int number = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter num: ");
+        //int number = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter exponent: ");
-        int exponent = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter exponent: ");
+        //int exponent = Convert.ToInt32(Console.ReadLine());
 
-        int res = 1;
-        for (int i = 1; i <= exponent; i++) { res *= number; }
-        Console.WriteLine(res);
+        //int res = 1;
+        //for (int i = 1; i <= exponent; i++) { res *= number; }
+        //Console.WriteLine(res);
 
 
         #endregion
