@@ -279,29 +279,29 @@
 
         #region
         //13.Write a program to allow the user to enter a string and print the REVERSE of it.
-        Console.Write("Enter String: ");
-        String str = Console.ReadLine();
-        char[] ch = str.ToCharArray();
-        Array.Reverse(ch);
-        string reve = new string(ch);
-        Console.WriteLine(reve);
+        //Console.Write("Enter String: ");
+        //String str = Console.ReadLine();
+        //char[] ch = str.ToCharArray();
+        //Array.Reverse(ch);
+        //string reve = new string(ch);
+        //Console.WriteLine(reve);
 
         #endregion
 
         #region
         //14.Write a program to allow the user to enter int and print the REVERSED of it.
 
-        //Console.Write("Enter Number: ");
-        //int num = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter Number: ");
+        int num = Convert.ToInt32(Console.ReadLine());
 
-        //int reve = 0;
-        //while (num > 0)
-        //{   
-        //    int digit = num % 10;
-        //    reve = reve * 10 + digit;
-        //    num /= 10;
-        //}
-        //Console.WriteLine(reve);
+        int reve = 0;
+        while (num > 0)
+        {
+            int digit = num % 10;
+            reve = reve * 10 + digit;
+            num /= 10;
+        }
+        Console.WriteLine(reve);
         #endregion
 
         #region
