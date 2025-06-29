@@ -75,10 +75,10 @@
         #region 
         //4.Write a program that allows the user to insert an integer number then check If a number is even or odd.
 
-        Console.Write("Enter number");
-        int number = Convert.ToInt32(Console.ReadLine());
-        if (number % 2 == 0) { Console.WriteLine("even "); }
-        else { Console.WriteLine("odd"); }
+        //Console.Write("Enter number");
+        //int number = Convert.ToInt32(Console.ReadLine());
+        //if (number % 2 == 0) { Console.WriteLine("even "); }
+        //else { Console.WriteLine("odd"); }
         #endregion
 
         #region 
@@ -90,13 +90,13 @@
         //Input: b
         //Output: Consonant
 
-        //Console.WriteLine("Enter character");
+        Console.WriteLine("Enter character");
 
-        //char character = Convert.ToChar(Console.ReadLine());
-        //character = char.ToLower(character);
-        //if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u')
-        //{Console.WriteLine("vowel");}
-        //else {Console.WriteLine("consonant");}
+        char character = Convert.ToChar(Console.ReadLine());
+        character = char.ToLower(character);
+        if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u')
+        { Console.WriteLine("vowel"); }
+        else { Console.WriteLine("consonant"); }
 
         #endregion
 
